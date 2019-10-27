@@ -87,7 +87,7 @@ const handleActiveClassChange = function () {
   // Iterating through the landing__container elements, checking whether they are active and
     // whether they are the active element set in the HTML
 
-    for (container of landingContainers) {
+  for (container of landingContainers) {
     const containerParent = container.parentElement;
 
     // If element is in the viewport AND it is the active element in the HTML, we skip
